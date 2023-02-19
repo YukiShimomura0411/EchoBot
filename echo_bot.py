@@ -51,14 +51,14 @@ def handle_text_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             [
-                TextSendMessage(text=text + "でござる")
+                TextSendMessage(text=text +"でござる")
             ],
         )
     else:
         line_bot_api.reply_message(
             event.reply_token,
             [
-                TextSendMessage(text=text + "でござる")
+                TextSendMessage(text=text +"でござる")
             ]
         )
 
